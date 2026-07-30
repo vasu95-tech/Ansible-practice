@@ -7,5 +7,5 @@
     trainer: shiva
   tasks:
   - name: print course details
-    builtin.ansible.debug:
+    ansible.builtin.debug:
       msg: "course details are: course name is: {{ course }}, duration: {{ duration }}, trainer: {{ trainer }}"
