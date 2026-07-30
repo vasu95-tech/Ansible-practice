@@ -6,4 +6,4 @@
   tasks:
   - name: print var files details
     ansible.builtin.debug:
-     msg: "Course Name is: {{ COURSE }}, Duratioin: {{ DURATION }}, Trainer: {{ Trainer }}"
+     msg: "course details are: course name is: {{ course }}, duration: {{ duration }}, trainer: {{ trainer }}"
