@@ -6,9 +6,9 @@
     mentor: shiva
     is_live: true
   skills:
-  - shell
-  - aws
-  - kubernetes
+    - shell
+    - aws
+    - kubernetes
   concepts:
     cloud: aws
     cm: anisble
