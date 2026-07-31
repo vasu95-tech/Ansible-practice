@@ -15,6 +15,6 @@
   tasks:
   - name: print data types
     ansible.builtin.debug:
-    msg: "course detailsare: course: {{course}},mentor: {{mentor}},is_live: {{is_live}},skills: {{skills}}, concepts: {{concepts}}"
+     msg: "course detailsare: course: {{course}},mentor: {{mentor}},is_live: {{is_live}},skills: {{skills}}, concepts: {{concepts}}"
 
 
