@@ -9,5 +9,5 @@
   tasks:
   - name: printing condition
     ansible.builtin.debug:
-     msg: "entered number is {{number}} greater than 10"
+     msg: "entered number is {{ number }} greater than 10"
     when: numbe > 10
