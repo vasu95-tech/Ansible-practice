@@ -1,0 +1,13 @@
+- name: conditions
+  hosts: local
+  connection: local
+  become: true
+  vars_prompt:
+  - name: number
+    prompt: enter a number to know which is greater than 10 or not 
+    private: false
+  tasks:
+  - name: printing condition
+    ansible.builtin.debug
+     msg: "entered number is {{number}} greater than 10"
+    when: numbe > 10
