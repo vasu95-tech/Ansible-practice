@@ -1,0 +1,20 @@
+- name: data types
+  hosts: local
+  connection: local
+  vars: 
+    course: aws
+    mentor: shiva
+    is_live: true
+  skills:
+  - shell
+  - aws
+  - kubernetes
+  concepts:
+    cloud: aws
+    cm: anisble
+  tasks:
+  -name: print data types
+   ansible.builtin.debug
+    msg: "course detailsare: course: {{course}},mentor: {{mentor}},is_live: {{is_live}},skills: {{skills}}, concepts: {{concepts}}"
+
+
