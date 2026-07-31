@@ -8,6 +8,6 @@
     private: false
   tasks:
   - name: printing condition
-    ansible.builtin.debug
+    ansible.builtin.debug:
      msg: "entered number is {{number}} greater than 10"
     when: numbe > 10
