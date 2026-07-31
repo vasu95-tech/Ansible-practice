@@ -5,13 +5,13 @@
     course: aws
     mentor: shiva
     is_live: true
-  skills:
+    skills:
     - shell
     - aws
     - kubernetes
-  concepts:
-    cloud: aws
-    cm: anisble
+    concepts:
+      cloud: aws
+      cm: anisble
   tasks:
   - name: print data types
     ansible.builtin.debug:
