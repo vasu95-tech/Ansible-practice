@@ -1,12 +1,12 @@
 - name: vars promt
   hosts: local
   connection: local
-  vars_promts:
+  vars_prompts:
   - name: username
-    promt: what is your username?
+    prompt: what is your username?
     private: false
   - name: password
-    promt: enter your passward
+    prompt: enter your passward
     private: true
   tasks: 
   - name: print user details
