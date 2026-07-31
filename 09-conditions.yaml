@@ -10,4 +10,4 @@
   - name: printing condition
     ansible.builtin.debug:
      msg: "entered number is {{ number }} greater than 10"
-    when: number > 10
+    when: number | int > 10
